@@ -1,0 +1,43 @@
+    Methods for Creating and Managing Frames:
+1. `setTitle(String title)`: Sets the title of the frame.
+2. `setSize(int width, int height)`: Sets the size of the frame.
+3. `setLocation(int x, int y)`: Sets the location of the frame on the screen.
+4. `setBounds(int x, int y, int width, int height)`: Sets the bounds (location and size) of the frame.
+5. `setDefaultCloseOperation(int operation)`: Sets the default close operation for the frame.
+6. `setVisible(boolean visible)`: Sets the visibility of the frame.
+7. `setResizable(boolean resizable)`: Sets whether the frame is resizable.
+8. `pack()`: Sizes the frame to fit its preferred size and layout.
+9. `toFront()`: Brings the frame to the front of the screen.
+10. `toBack()`: Sends the frame to the back of the screen.
+
+    Methods for Adding and Managing Components:
+1. `add(Component comp)`: Adds a component to the frame.
+2. `remove(Component comp)`: Removes a component from the frame.
+3. `setLayout(LayoutManager mgr)`: Sets the layout manager for the frame.
+4. `invalidate()`: Marks the layout of the frame as invalid, requiring a layout update.
+5. `validate()`: Validates the layout of the frame.
+6. `repaint()`: Repaints the frame and its components.
+7. `revalidate()`: Revalidates the layout of the frame.
+
+    Methods for Handling Events:
+1. `addActionListener(ActionListener listener)`: Adds an action listener to the frame.
+2. `addWindowListener(WindowListener listener)`: Adds a window listener to the frame.
+3. `addMouseListener(MouseListener listener)`: Adds a mouse listener to the frame.
+4. `addKeyListener(KeyListener listener)`: Adds a key listener to the frame.
+5. `addFocusListener(FocusListener listener)`: Adds a focus listener to the frame.
+6. `addComponentListener(ComponentListener listener)`: Adds a component listener to the frame.
+
+    Methods for Accessing Frame Properties:
+1. `getTitle()`: Returns the title of the frame.
+2. `getSize()`: Returns the size of the frame as a `Dimension` object.
+3. `getLocation()`: Returns the location of the frame as a `Point` object.
+4. `getDefaultCloseOperation()`: Returns the default close operation for the frame.
+5. `isVisible()`: Returns true if the frame is visible, false otherwise.
+6. `isResizable()`: Returns true if the frame is resizable, false otherwise.
+7. `getContentPane()`: Returns the content pane of the frame.
+8. `getLayout()`: Returns the layout manager for the frame.
+
+    Miscellaneous Methods:
+1. `requestFocus()`: Requests focus for the frame.
+2. `dispose()`: Releases all native screen resources used by this frame.
+3. `getToolkit()`: Gets the toolkit object for the frame.
