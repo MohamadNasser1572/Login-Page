@@ -3,7 +3,9 @@ public class Main {
 
         IDandPasswords idandPasswords = new IDandPasswords();
 
-        @SuppressWarnings({ "unused", "unchecked" })
+        @SuppressWarnings({
+                "unused",
+                "unchecked"})
         LoginPage loginPage = new LoginPage(idandPasswords.getLoginInfo());
 
     }
